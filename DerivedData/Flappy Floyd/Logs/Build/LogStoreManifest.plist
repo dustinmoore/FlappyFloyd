@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>BB4ECEC1-ABD6-4A1E-A617-0401023C3175</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BB4ECEC1-ABD6-4A1E-A617-0401023C3175.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flappy Floyd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flappy Floyd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archive Flappy Floyd</string>
+			<key>timeStartedRecording</key>
+			<real>599538039.81944704</real>
+			<key>timeStoppedRecording</key>
+			<real>599538124.73202705</real>
+			<key>title</key>
+			<string>Archive Flappy Floyd</string>
+			<key>uniqueIdentifier</key>
+			<string>BB4ECEC1-ABD6-4A1E-A617-0401023C3175</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F216FEBCCB468DAF8A1CB2 /* Pods_Flappy_Floyd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581FB66DC32BEC61C621ABD6 /* Pods_Flappy_Floyd.framework */; };
+		95036E1623652DF6002A5F87 /* gems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95036E1523652DF6002A5F87 /* gems.mp3 */; };
+		95036E18236616D1002A5F87 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95036E17236616D1002A5F87 /* GameKit.framework */; };
+		95036E1B236616E3002A5F87 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95036E1A236616E3002A5F87 /* StoreKit.framework */; };
+		95036E1D23661C02002A5F87 /* FlappyProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95036E1C23661C02002A5F87 /* FlappyProducts.swift */; };
+		95036E1F23661C40002A5F87 /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95036E1E23661C40002A5F87 /* SKProduct.swift */; };
+		95036E2123661C4F002A5F87 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95036E2023661C4F002A5F87 /* IAPHelper.swift */; };
+		95133B0A23BC368900EA9881 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95133B0923BC368800EA9881 /* GoogleService-Info.plist */; };
+		952A25AD23B92331006CF2EB /* ShopScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952A25AB23B9232E006CF2EB /* ShopScene.sks */; };
+		952A25AE23B92331006CF2EB /* ShopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A25AC23B92331006CF2EB /* ShopScene.swift */; };
+		952A25B423B98905006CF2EB /* ChooseLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A25B223B98903006CF2EB /* ChooseLevelScene.swift */; };
+		952A25B523B98905006CF2EB /* ChooseLevelScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952A25B323B98905006CF2EB /* ChooseLevelScene.sks */; };
+		953A0D5023677A3F0065CFD7 /* skin2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4623677A3A0065CFD7 /* skin2.atlas */; };
+		953A0D5123677A3F0065CFD7 /* skin7.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4723677A3B0065CFD7 /* skin7.atlas */; };
+		953A0D5223677A3F0065CFD7 /* skin6.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4823677A3B0065CFD7 /* skin6.atlas */; };
+		953A0D5323677A3F0065CFD7 /* skin9.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4923677A3C0065CFD7 /* skin9.atlas */; };
+		953A0D5423677A3F0065CFD7 /* skin4.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4A23677A3C0065CFD7 /* skin4.atlas */; };
+		953A0D5523677A3F0065CFD7 /* skin1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4B23677A3D0065CFD7 /* skin1.atlas */; };
+		953A0D5623677A3F0065CFD7 /* skin3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4C23677A3D0065CFD7 /* skin3.atlas */; };
+		953A0D5723677A3F0065CFD7 /* skin5.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4D23677A3E0065CFD7 /* skin5.atlas */; };
+		953A0D5823677A3F0065CFD7 /* skin10.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4E23677A3E0065CFD7 /* skin10.atlas */; };
+		953A0D5923677A3F0065CFD7 /* skin8.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 953A0D4F23677A3F0065CFD7 /* skin8.atlas */; };
+		95453DB823635DF400CBAF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95453DB723635DF400CBAF12 /* AppDelegate.swift */; };
+		95453DBA23635DF400CBAF12 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95453DB923635DF400CBAF12 /* GameScene.sks */; };
+		95453DBE23635DF400CBAF12 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95453DBD23635DF400CBAF12 /* GameScene.swift */; };
+		95453DC023635DF400CBAF12 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95453DBF23635DF400CBAF12 /* GameViewController.swift */; };
+		95453DC323635DF400CBAF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95453DC123635DF400CBAF12 /* Main.storyboard */; };
+		95453DC523635DF700CBAF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95453DC423635DF700CBAF12 /* Assets.xcassets */; };
+		95453DC823635DF700CBAF12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95453DC623635DF700CBAF12 /* LaunchScreen.storyboard */; };
+		95453DD023635E5700CBAF12 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95453DCF23635E5700CBAF12 /* GameElements.swift */; };
+		95453DD423635E8B00CBAF12 /* impact.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95453DD123635E8B00CBAF12 /* impact.mp3 */; };
+		95453DD523635E8B00CBAF12 /* pimpoy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95453DD223635E8B00CBAF12 /* pimpoy.wav */; };
+		95453DD623635E8B00CBAF12 /* fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95453DD323635E8B00CBAF12 /* fall.mp3 */; };
+		95453DDB23635F1300CBAF12 /* smoketrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95453DD923635F1300CBAF12 /* smoketrail.sks */; };
+		95453DDE2363612A00CBAF12 /* rocketfire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95453DDD2363612A00CBAF12 /* rocketfire.sks */; };
+		956D848A23686ED10025ECA3 /* SkinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 956D848923686ED10025ECA3 /* SkinScene.sks */; };
+		956D848C23686EE90025ECA3 /* SkinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D848B23686EE90025ECA3 /* SkinScene.swift */; };
+		956D848F236883840025ECA3 /* skin11.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 956D848D236883810025ECA3 /* skin11.atlas */; };
+		956D8490236883840025ECA3 /* skin12.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 956D848E236883840025ECA3 /* skin12.atlas */; };
+		95786ED7238D6B9300C2A0AA /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95786ED5238D6B9200C2A0AA /* MenuScene.swift */; };
+		95786ED8238D6B9300C2A0AA /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95786ED6238D6B9300C2A0AA /* MenuScene.sks */; };
+		95C627B723825F1C00BCFBC9 /* ProgressiveGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95C627B423825F1400BCFBC9 /* ProgressiveGameScene.sks */; };
+		95C627B823825F1C00BCFBC9 /* ProgressiveGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C627B523825F1800BCFBC9 /* ProgressiveGameScene.swift */; };
+		95C627B923825F1C00BCFBC9 /* ProgressiveGameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C627B623825F1C00BCFBC9 /* ProgressiveGameElements.swift */; };
+		95E38ABA236C6DA700F6EA42 /* SkinSceneElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E38AB9236C6DA700F6EA42 /* SkinSceneElements.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202B46F7C3B187E4451F1CE3 /* Pods-Flappy Floyd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy Floyd.release.xcconfig"; path = "Target Support Files/Pods-Flappy Floyd/Pods-Flappy Floyd.release.xcconfig"; sourceTree = "<group>"; };
+		581FB66DC32BEC61C621ABD6 /* Pods_Flappy_Floyd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flappy_Floyd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E7F99A1C549431091245D7 /* Pods-Flappy Floyd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy Floyd.debug.xcconfig"; path = "Target Support Files/Pods-Flappy Floyd/Pods-Flappy Floyd.debug.xcconfig"; sourceTree = "<group>"; };
+		95036E1523652DF6002A5F87 /* gems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gems.mp3; sourceTree = "<group>"; };
+		95036E17236616D1002A5F87 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		95036E19236616D6002A5F87 /* Flappy Floyd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Flappy Floyd.entitlements"; sourceTree = "<group>"; };
+		95036E1A236616E3002A5F87 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		95036E1C23661C02002A5F87 /* FlappyProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyProducts.swift; sourceTree = "<group>"; };
+		95036E1E23661C40002A5F87 /* SKProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKProduct.swift; sourceTree = "<group>"; };
+		95036E2023661C4F002A5F87 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		95133B0923BC368800EA9881 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		952A25AB23B9232E006CF2EB /* ShopScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShopScene.sks; sourceTree = "<group>"; };
+		952A25AC23B92331006CF2EB /* ShopScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopScene.swift; sourceTree = "<group>"; };
+		952A25B223B98903006CF2EB /* ChooseLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLevelScene.swift; sourceTree = "<group>"; };
+		952A25B323B98905006CF2EB /* ChooseLevelScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ChooseLevelScene.sks; sourceTree = "<group>"; };
+		953A0D4623677A3A0065CFD7 /* skin2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin2.atlas; sourceTree = "<group>"; };
+		953A0D4723677A3B0065CFD7 /* skin7.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin7.atlas; sourceTree = "<group>"; };
+		953A0D4823677A3B0065CFD7 /* skin6.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin6.atlas; sourceTree = "<group>"; };
+		953A0D4923677A3C0065CFD7 /* skin9.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin9.atlas; sourceTree = "<group>"; };
+		953A0D4A23677A3C0065CFD7 /* skin4.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin4.atlas; sourceTree = "<group>"; };
+		953A0D4B23677A3D0065CFD7 /* skin1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin1.atlas; sourceTree = "<group>"; };
+		953A0D4C23677A3D0065CFD7 /* skin3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin3.atlas; sourceTree = "<group>"; };
+		953A0D4D23677A3E0065CFD7 /* skin5.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin5.atlas; sourceTree = "<group>"; };
+		953A0D4E23677A3E0065CFD7 /* skin10.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin10.atlas; sourceTree = "<group>"; };
+		953A0D4F23677A3F0065CFD7 /* skin8.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin8.atlas; sourceTree = "<group>"; };
+		95453DB423635DF400CBAF12 /* Flappy Floyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Floyd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95453DB723635DF400CBAF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95453DB923635DF400CBAF12 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		95453DBD23635DF400CBAF12 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		95453DBF23635DF400CBAF12 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		95453DC223635DF400CBAF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95453DC423635DF700CBAF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95453DC723635DF700CBAF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95453DC923635DF700CBAF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95453DCF23635E5700CBAF12 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		95453DD123635E8B00CBAF12 /* impact.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = impact.mp3; sourceTree = "<group>"; };
+		95453DD223635E8B00CBAF12 /* pimpoy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pimpoy.wav; sourceTree = "<group>"; };
+		95453DD323635E8B00CBAF12 /* fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fall.mp3; sourceTree = "<group>"; };
+		95453DD923635F1300CBAF12 /* smoketrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoketrail.sks; sourceTree = "<group>"; };
+		95453DDD2363612A00CBAF12 /* rocketfire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rocketfire.sks; sourceTree = "<group>"; };
+		956D848923686ED10025ECA3 /* SkinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SkinScene.sks; sourceTree = "<group>"; };
+		956D848B23686EE90025ECA3 /* SkinScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinScene.swift; sourceTree = "<group>"; };
+		956D848D236883810025ECA3 /* skin11.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin11.atlas; sourceTree = "<group>"; };
+		956D848E236883840025ECA3 /* skin12.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skin12.atlas; sourceTree = "<group>"; };
+		95786ED5238D6B9200C2A0AA /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		95786ED6238D6B9300C2A0AA /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		95C627B423825F1400BCFBC9 /* ProgressiveGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ProgressiveGameScene.sks; sourceTree = "<group>"; };
+		95C627B523825F1800BCFBC9 /* ProgressiveGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressiveGameScene.swift; sourceTree = "<group>"; };
+		95C627B623825F1C00BCFBC9 /* ProgressiveGameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressiveGameElements.swift; sourceTree = "<group>"; };
+		95E38AB9236C6DA700F6EA42 /* SkinSceneElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinSceneElements.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95453DB123635DF400CBAF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95036E1B236616E3002A5F87 /* StoreKit.framework in Frameworks */,
+				01F216FEBCCB468DAF8A1CB2 /* Pods_Flappy_Floyd.framework in Frameworks */,
+				95036E18236616D1002A5F87 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DFFE6EBA0309CF14EF7A4F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E7F99A1C549431091245D7 /* Pods-Flappy Floyd.debug.xcconfig */,
+				202B46F7C3B187E4451F1CE3 /* Pods-Flappy Floyd.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95036E2323661C90002A5F87 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				95036E1523652DF6002A5F87 /* gems.mp3 */,
+				95453DD323635E8B00CBAF12 /* fall.mp3 */,
+				95453DD123635E8B00CBAF12 /* impact.mp3 */,
+				95453DD223635E8B00CBAF12 /* pimpoy.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		95036E2423661CB0002A5F87 /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				95453DD923635F1300CBAF12 /* smoketrail.sks */,
+				95453DDD2363612A00CBAF12 /* rocketfire.sks */,
+			);
+			path = Emitters;
+			sourceTree = "<group>";
+		};
+		952A25AA23B92110006CF2EB /* ShopScene */ = {
+			isa = PBXGroup;
+			children = (
+				952A25AB23B9232E006CF2EB /* ShopScene.sks */,
+				952A25AC23B92331006CF2EB /* ShopScene.swift */,
+			);
+			path = ShopScene;
+			sourceTree = "<group>";
+		};
+		952A25B123B988BF006CF2EB /* ChooseLevelScene */ = {
+			isa = PBXGroup;
+			children = (
+				952A25B323B98905006CF2EB /* ChooseLevelScene.sks */,
+				952A25B223B98903006CF2EB /* ChooseLevelScene.swift */,
+			);
+			path = ChooseLevelScene;
+			sourceTree = "<group>";
+		};
+		95453DAB23635DF300CBAF12 = {
+			isa = PBXGroup;
+			children = (
+				95453DB623635DF400CBAF12 /* Flappy Floyd */,
+				95453DB523635DF400CBAF12 /* Products */,
+				8DFFE6EBA0309CF14EF7A4F8 /* Pods */,
+				CE2FDC4A5580445C38CE3DEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95453DB523635DF400CBAF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95453DB423635DF400CBAF12 /* Flappy Floyd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95453DB623635DF400CBAF12 /* Flappy Floyd */ = {
+			isa = PBXGroup;
+			children = (
+				95036E19236616D6002A5F87 /* Flappy Floyd.entitlements */,
+				95453DB723635DF400CBAF12 /* AppDelegate.swift */,
+				95453DBF23635DF400CBAF12 /* GameViewController.swift */,
+				952A25B123B988BF006CF2EB /* ChooseLevelScene */,
+				952A25AA23B92110006CF2EB /* ShopScene */,
+				95786ED9238D6B9D00C2A0AA /* MenuScene */,
+				95C627B323825EED00BCFBC9 /* ProgressiveGameScene */,
+				95036E2423661CB0002A5F87 /* Emitters */,
+				95E38ABC236C6E6500F6EA42 /* GameScene */,
+				95E38ABB236C6E5400F6EA42 /* SkinScene */,
+				95E38ABD236C6E7E00F6EA42 /* InAppPurchase */,
+				95453DC123635DF400CBAF12 /* Main.storyboard */,
+				953A0D4B23677A3D0065CFD7 /* skin1.atlas */,
+				953A0D4623677A3A0065CFD7 /* skin2.atlas */,
+				953A0D4C23677A3D0065CFD7 /* skin3.atlas */,
+				953A0D4A23677A3C0065CFD7 /* skin4.atlas */,
+				953A0D4D23677A3E0065CFD7 /* skin5.atlas */,
+				953A0D4823677A3B0065CFD7 /* skin6.atlas */,
+				953A0D4723677A3B0065CFD7 /* skin7.atlas */,
+				953A0D4F23677A3F0065CFD7 /* skin8.atlas */,
+				953A0D4923677A3C0065CFD7 /* skin9.atlas */,
+				953A0D4E23677A3E0065CFD7 /* skin10.atlas */,
+				956D848D236883810025ECA3 /* skin11.atlas */,
+				956D848E236883840025ECA3 /* skin12.atlas */,
+				95453DC423635DF700CBAF12 /* Assets.xcassets */,
+				95453DC623635DF700CBAF12 /* LaunchScreen.storyboard */,
+				95133B0923BC368800EA9881 /* GoogleService-Info.plist */,
+				95453DC923635DF700CBAF12 /* Info.plist */,
+				95036E2323661C90002A5F87 /* Sounds */,
+			);
+			path = "Flappy Floyd";
+			sourceTree = "<group>";
+		};
+		95786ED9238D6B9D00C2A0AA /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				95786ED6238D6B9300C2A0AA /* MenuScene.sks */,
+				95786ED5238D6B9200C2A0AA /* MenuScene.swift */,
+			);
+			path = MenuScene;
+			sourceTree = "<group>";
+		};
+		95C627B323825EED00BCFBC9 /* ProgressiveGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				95C627B623825F1C00BCFBC9 /* ProgressiveGameElements.swift */,
+				95C627B423825F1400BCFBC9 /* ProgressiveGameScene.sks */,
+				95C627B523825F1800BCFBC9 /* ProgressiveGameScene.swift */,
+			);
+			path = ProgressiveGameScene;
+			sourceTree = "<group>";
+		};
+		95E38ABB236C6E5400F6EA42 /* SkinScene */ = {
+			isa = PBXGroup;
+			children = (
+				956D848923686ED10025ECA3 /* SkinScene.sks */,
+				956D848B23686EE90025ECA3 /* SkinScene.swift */,
+				95E38AB9236C6DA700F6EA42 /* SkinSceneElements.swift */,
+			);
+			path = SkinScene;
+			sourceTree = "<group>";
+		};
+		95E38ABC236C6E6500F6EA42 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				95453DB923635DF400CBAF12 /* GameScene.sks */,
+				95453DBD23635DF400CBAF12 /* GameScene.swift */,
+				95453DCF23635E5700CBAF12 /* GameElements.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		95E38ABD236C6E7E00F6EA42 /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				95036E1C23661C02002A5F87 /* FlappyProducts.swift */,
+				95036E1E23661C40002A5F87 /* SKProduct.swift */,
+				95036E2023661C4F002A5F87 /* IAPHelper.swift */,
+			);
+			path = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		CE2FDC4A5580445C38CE3DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95036E1A236616E3002A5F87 /* StoreKit.framework */,
+				95036E17236616D1002A5F87 /* GameKit.framework */,
+				581FB66DC32BEC61C621ABD6 /* Pods_Flappy_Floyd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95453DB323635DF400CBAF12 /* Flappy Floyd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95453DCC23635DF700CBAF12 /* Build configuration list for PBXNativeTarget "Flappy Floyd" */;
+			buildPhases = (
+				432A9F225E31A7CEA95F7B13 /* [CP] Check Pods Manifest.lock */,
+				95453DB023635DF400CBAF12 /* Sources */,
+				95453DB123635DF400CBAF12 /* Frameworks */,
+				95453DB223635DF400CBAF12 /* Resources */,
+				9C27C164D02CC75C05ED1C87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flappy Floyd";
+			productName = "Flappy Floyd";
+			productReference = 95453DB423635DF400CBAF12 /* Flappy Floyd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95453DAC23635DF300CBAF12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Dustin Moore";
+				TargetAttributes = {
+					95453DB323635DF400CBAF12 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 95453DAF23635DF300CBAF12 /* Build configuration list for PBXProject "Flappy Floyd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95453DAB23635DF300CBAF12;
+			productRefGroup = 95453DB523635DF400CBAF12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95453DB323635DF400CBAF12 /* Flappy Floyd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95453DB223635DF400CBAF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95453DC323635DF400CBAF12 /* Main.storyboard in Resources */,
+				952A25AD23B92331006CF2EB /* ShopScene.sks in Resources */,
+				953A0D5823677A3F0065CFD7 /* skin10.atlas in Resources */,
+				953A0D5523677A3F0065CFD7 /* skin1.atlas in Resources */,
+				95036E1623652DF6002A5F87 /* gems.mp3 in Resources */,
+				953A0D5723677A3F0065CFD7 /* skin5.atlas in Resources */,
+				95453DBA23635DF400CBAF12 /* GameScene.sks in Resources */,
+				953A0D5223677A3F0065CFD7 /* skin6.atlas in Resources */,
+				95453DD423635E8B00CBAF12 /* impact.mp3 in Resources */,
+				952A25B523B98905006CF2EB /* ChooseLevelScene.sks in Resources */,
+				95C627B723825F1C00BCFBC9 /* ProgressiveGameScene.sks in Resources */,
+				95453DD523635E8B00CBAF12 /* pimpoy.wav in Resources */,
+				956D848A23686ED10025ECA3 /* SkinScene.sks in Resources */,
+				95133B0A23BC368900EA9881 /* GoogleService-Info.plist in Resources */,
+				95453DDE2363612A00CBAF12 /* rocketfire.sks in Resources */,
+				953A0D5123677A3F0065CFD7 /* skin7.atlas in Resources */,
+				956D848F236883840025ECA3 /* skin11.atlas in Resources */,
+				95453DC523635DF700CBAF12 /* Assets.xcassets in Resources */,
+				95453DD623635E8B00CBAF12 /* fall.mp3 in Resources */,
+				953A0D5423677A3F0065CFD7 /* skin4.atlas in Resources */,
+				953A0D5323677A3F0065CFD7 /* skin9.atlas in Resources */,
+				95786ED8238D6B9300C2A0AA /* MenuScene.sks in Resources */,
+				95453DC823635DF700CBAF12 /* LaunchScreen.storyboard in Resources */,
+				953A0D5623677A3F0065CFD7 /* skin3.atlas in Resources */,
+				956D8490236883840025ECA3 /* skin12.atlas in Resources */,
+				95453DDB23635F1300CBAF12 /* smoketrail.sks in Resources */,
+				953A0D5023677A3F0065CFD7 /* skin2.atlas in Resources */,
+				953A0D5923677A3F0065CFD7 /* skin8.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432A9F225E31A7CEA95F7B13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flappy Floyd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C27C164D02CC75C05ED1C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flappy Floyd/Pods-Flappy Floyd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flappy Floyd/Pods-Flappy Floyd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flappy Floyd/Pods-Flappy Floyd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95453DB023635DF400CBAF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95453DD023635E5700CBAF12 /* GameElements.swift in Sources */,
+				956D848C23686EE90025ECA3 /* SkinScene.swift in Sources */,
+				952A25AE23B92331006CF2EB /* ShopScene.swift in Sources */,
+				95036E1F23661C40002A5F87 /* SKProduct.swift in Sources */,
+				95036E1D23661C02002A5F87 /* FlappyProducts.swift in Sources */,
+				95C627B923825F1C00BCFBC9 /* ProgressiveGameElements.swift in Sources */,
+				952A25B423B98905006CF2EB /* ChooseLevelScene.swift in Sources */,
+				95C627B823825F1C00BCFBC9 /* ProgressiveGameScene.swift in Sources */,
+				95453DBE23635DF400CBAF12 /* GameScene.swift in Sources */,
+				95453DC023635DF400CBAF12 /* GameViewController.swift in Sources */,
+				95036E2123661C4F002A5F87 /* IAPHelper.swift in Sources */,
+				95786ED7238D6B9300C2A0AA /* MenuScene.swift in Sources */,
+				95E38ABA236C6DA700F6EA42 /* SkinSceneElements.swift in Sources */,
+				95453DB823635DF400CBAF12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95453DC123635DF400CBAF12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95453DC223635DF400CBAF12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95453DC623635DF700CBAF12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95453DC723635DF700CBAF12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95453DCA23635DF700CBAF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X8D32634Y6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95453DCB23635DF700CBAF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X8D32634Y6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95453DCD23635DF700CBAF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E7F99A1C549431091245D7 /* Pods-Flappy Floyd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flappy Floyd/Flappy Floyd.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8D32634Y6;
+				INFOPLIST_FILE = "Flappy Floyd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dustin-moore.Flappy-Floyd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95453DCE23635DF700CBAF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202B46F7C3B187E4451F1CE3 /* Pods-Flappy Floyd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Flappy Floyd/Flappy Floyd.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8D32634Y6;
+				INFOPLIST_FILE = "Flappy Floyd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dustin-moore.Flappy-Floyd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95453DAF23635DF300CBAF12 /* Build configuration list for PBXProject "Flappy Floyd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95453DCA23635DF700CBAF12 /* Debug */,
+				95453DCB23635DF700CBAF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95453DCC23635DF700CBAF12 /* Build configuration list for PBXNativeTarget "Flappy Floyd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95453DCD23635DF700CBAF12 /* Debug */,
+				95453DCE23635DF700CBAF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95453DAC23635DF300CBAF12 /* Project object */;
+}

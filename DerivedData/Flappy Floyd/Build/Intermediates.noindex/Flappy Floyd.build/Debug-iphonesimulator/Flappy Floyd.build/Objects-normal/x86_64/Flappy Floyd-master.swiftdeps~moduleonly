@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "8220accd7811ac7c83a419229c95123f"
+build_time: [1577844785, 343630000]
+inputs:
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/GameScene/GameElements.swift": [1577756460, 464044044]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/SkinScene/SkinScene.swift": [1577669068, 931447584]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/ShopScene/ShopScene.swift": [1577644696, 885689496]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/InAppPurchase/SKProduct.swift": [1572233320, 698620340]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/InAppPurchase/FlappyProducts.swift": [1577561397, 173603645]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/ProgressiveGameScene/ProgressiveGameElements.swift": [1577756404, 857940965]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/ChooseLevelScene/ChooseLevelScene.swift": [1577672189, 696568915]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/ProgressiveGameScene/ProgressiveGameScene.swift": [1577756303, 963678183]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/GameScene/GameScene.swift": [1577756563, 987545296]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/GameViewController.swift": [1573855718, 303436934]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/InAppPurchase/IAPHelper.swift": [1573502951, 753857713]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/MenuScene/MenuScene.swift": [1577668502, 150401657]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/SkinScene/SkinSceneElements.swift": [1574348107, 62604276]
+  "/Users/dustinmoore/Documents/IOSApps/flappyfloydapp/Flappy Floyd/AppDelegate.swift": [1572191996, 629996274]

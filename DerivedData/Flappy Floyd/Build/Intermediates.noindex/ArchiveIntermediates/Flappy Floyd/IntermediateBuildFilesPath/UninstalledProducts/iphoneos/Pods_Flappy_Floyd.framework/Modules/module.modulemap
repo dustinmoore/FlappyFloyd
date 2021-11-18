@@ -1,0 +1,6 @@
+framework module Pods_Flappy_Floyd {
+  umbrella header "Pods-Flappy Floyd-umbrella.h"
+
+  export *
+  module * { export * }
+}
